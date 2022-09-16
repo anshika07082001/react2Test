@@ -1,12 +1,11 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.App{
+  background-color: whitesmoke;
+  height: 100vh;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +34,91 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* my editing */
+
+#head{
+  height: 50px;
+  background-color: white;
+  width: 90%;
+  border-radius: 4px;
+  margin-left: 4%;
+}
+
+#bodyDiv{
+  height: 500px;
+ 
+  margin-top: 2%;
+  width: 90%;
+  margin-left: 4%;
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-between;
+}
+#divLeft{
+  height: 90%;
+  width: 40%;
+  margin: 1%;
+  border-radius: 3px;
+  background-color: white;
+}
+#divRight{
+  height: 90%;
+  width: 40%;
+  margin: 1%;
+}
+#divLeft form{
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+}
+.radioDiv{
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+#btnDiv{
+  height: 40%;
+}
+.btnTop{
+  height: 70px;
+}
+.btnTop button{
+  height: 50%;
+  margin: 1%;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+
+#rightTop{
+  height: 50%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+#rightDown{
+  height: 20%;
+  margin-top: 7%;
+  background-color: white;
+  display: flex;
+  border-radius: 4px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.small{
+  height: 40px;
+  width: 40px;
+  background-color: #282c34;
+  margin: 2%;
+  text-align: center;
+  font-size: 1.3rem;
 }
