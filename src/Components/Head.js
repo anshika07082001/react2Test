@@ -4,7 +4,7 @@ const Head = () => {
   return (
     <div id='head'>
       <h2>Quiz</h2>
-    </div>
+    </div> 
   )
 }
 
